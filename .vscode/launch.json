@@ -1,0 +1,20 @@
+
+     {
+         "version": "0.2.0",
+         "configurations": [
+             {
+                 "type": "java",
+                 "name": "Current File",
+                 "request": "launch",
+                 "mainClass": "${file}"
+             },
+             {
+                 "type": "java",
+                 "name": "ClipboardManager",
+                 "request": "launch",
+                 "vmArgs": "--module-path C:\\Users\\thous\\Downloads\\java\\javafx-sdk-24.0.1\\lib --add-modules javafx.controls,javafx.fxml",
+                 "mainClass": "com.clipboard.MainApp",
+                 "projectName": "clipboard_2389f062"
+             }
+         ]
+     }

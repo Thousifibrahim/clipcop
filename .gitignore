@@ -1,0 +1,19 @@
+     # Eclipse/VS Code files
+     .classpath
+     .project
+     .settings/
+     .vscode/
+
+     # Java build outputs
+     bin/
+     *.class
+
+     # JavaFX/JAR dependencies
+     lib/
+
+     # OS-specific files
+     .DS_Store
+     Thumbs.db
+
+     # Other
+     *.log

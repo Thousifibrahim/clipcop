@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.clipboard.controller.ClipboardController" spacing="10" styleClass="glass-pane">
+    <HBox styleClass="title-bar" spacing="5" alignment="CENTER_RIGHT" prefHeight="30">
+        <Button fx:id="toggleDarkModeButton" text="🌙" styleClass="title-button" onAction="#toggleDarkMode"/>
+        <Button fx:id="minimizeButton" text="-" styleClass="title-button" onAction="#minimizeWindow"/>
+        <Button fx:id="closeButton" text="X" styleClass="title-button" onAction="#closeWindow"/>
+    </HBox>
+    <TextField fx:id="searchField" promptText="Search clipboard history..." styleClass="glass-textfield"/>
+    <ListView fx:id="clipboardListView" styleClass="glass-listview"/>
+    <Button fx:id="quickPasteButton" text="Show Quick Paste" styleClass="glass-button" onAction="#showQuickPaste"/>
+</VBox>
