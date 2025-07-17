@@ -51,7 +51,7 @@ Follow these steps to set up and run ClipCop using Maven:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/ClipCop.git](https://github.com/your-username/ClipCop.git) # Replace with your actual repo URL
+    git clone git remote add origin https://github.com/Thousifibrahim/clipcop.git 
     cd ClipCop
     ```
     *(If you're starting from scratch without Git, manually create the `clipcop` directory and skip this step, but consider using Git!)*
