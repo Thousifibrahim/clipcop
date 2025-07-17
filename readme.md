@@ -13,6 +13,8 @@
 
 Ever wish your clipboard could do more? Tired of losing that one important thing you copied? 🤔 **ClipCop** is here to make your digital life incredibly smoother, no matter if you're on **Windows, Mac, or Linux!**
 
+![ClipCop Main Window](02.png)
+
 ## Why ClipCop?
 
 Here's why ClipCop makes life so much easier than those basic, built-in options:
